@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Dog
 
     def initialize(name,breed="Mutt")
@@ -22,3 +23,20 @@ class Dog
  
  end
  
+=======
+class Dog(name,breed)
+  initialize(breed)
+  @breed = breed
+end
+
+def breed
+  @breed
+end
+
+def breed = breed
+  @breed = breed
+end
+
+end
+  
+>>>>>>> 7bda19f1b1f59f30170d5809f3b7b432bdc8afd4
